@@ -1,0 +1,44 @@
+main {
+    background-image: url(img/bg.png);
+    
+    padding-top: 65px;    
+}
+li i {
+    vertical-align: middle;
+}
+
+.left-sidebar a{
+    padding: 0 90px 0 20px;
+    margin-bottom: 9px;
+}
+.wrapper-left-sidebar {
+    background-color: rgba(	38, 166, 154, 0.8);
+   -webkit-box-shadow: 3px 0px 8px -2px rgba(0,0,0,0.52);
+    -moz-box-shadow: 3px 0px 8px -2px rgba(0,0,0,0.52);
+    box-shadow: 3px 0px 8px -2px rgba(0,0,0,0.52);
+}
+.input-field label {
+    color: black;
+}
+textarea.materialize-textarea {
+    border-bottom: 1px solid black;
+}
+.logo-wrapper img {
+    width: 100%;
+}
+main {
+    margin-left: 240px;
+}
+.row .header {
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.page-footer {
+    margin-left: 240px;
+}
+.page-footer .row {
+    margin-bottom:0;
+}
+.card {
+    margin-bottom: 35px;
+}

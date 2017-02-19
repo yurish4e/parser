@@ -1,0 +1,51 @@
+extends layout
+
+block content
+
+  div(class=['row'])
+    div(class=['col', 's10', 'offset-s1', 'card'])
+      h2.header New Project:
+      div(class=['row'])
+        div(class=['col', 's6'])
+          div(class=['nput-field'])
+            input#name(class=['validate'], type='text')
+            label(for=['name']) Name of project:
+          div(class=['nput-field'])
+            input(id='name', class=['validate'], type='text')
+            label(for=['name']) List url: 
+          div(class=['nput-field'])
+            input(id='name', class=['validate'], type='text')
+            label(for=['name']) List url:
+          div(class=['nput-field'])
+            input(id='name', class=['validate'], type='text')
+            label(for=['name']) List url:    
+          button(class=['btn','waves-effect','waves-light'], type='submit', name='action') Next    
+          
+        div(class=['col', 's6'])    
+          p Test results
+          p
+            a(class='btn') Test all
+          p Data:
+          .card
+            .card-content
+              h5 Nam vitae lectus sed nisi sagittis viverra.
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis, sem vel posuere porta, neque lacus suscipit augue, quis tincidunt justo erat id diam. Proin consectetur metus ipsum, nec efficitur ipsum lobortis at. Donec nibh ante, accumsan quis sollicitudin non, dictum vel quam. Nullam tempor sem ac vestibulum laoreet. Pellentesque vulputate nisl quis faucibus efficitur. Phasellus massa metus, finibus commodo nibh quis, scelerisque iaculis ligula. Pellentesque vehicula nunc non nulla viverra porta. Duis consectetur accumsan porttitor. Nam vitae lectus sed nisi sagittis viverra. 
+      
+  div(class=['row'])
+    div(class=['col', 's10', 'offset-s1', 'card'])      
+      h2.header New Project 2 page
+      .row
+        div(class=['col','s6'])
+         .row
+           div.input-field
+             input#nameOfProject(class='validate', type='text')
+             label(for='nameOfProject') Name of project:
+           div(class=['col','s6'])
+             .input-field
+               input#nameOfField(class='validate', type='text')
+               label(for='nameOfField') Field name:
+           div(class=['col','s6'])
+             .input-field
+               input#selector(class='validate', type='text')
+               label(for='selector') Selector:
+             

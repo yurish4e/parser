@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+  div(class=['row'])
+    div(class=['col', 's10', 'offset-s1', 'card'])
+     div(class=['row'])
+       h2 Info:
+       div(class=['col', 's6']) 
+         p All projects - #{data.all_projects}
+         p Completed projects - #{data.complete_projects}
+         p Pending projects - #{data.pending_projects}
+       div(class=['col', 's6']) 
+         p Available credits - 8848
+         a(href='/') Buy more credits
+         - each item in tasks
+           p= item.t

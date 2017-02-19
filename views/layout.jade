@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets//font-awesome.min.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet', href='style.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js')
+    script(src='http://code.jquery.com/jquery-latest.js')
+  body
+    
+    ul#slide-out(class=['side-nav', 'fixed'])
+      ul(class=['collapsible', 'collapsible-accordion'])
+        li: a(class=['collapsible-header', 'waves-effect']) Add project
+        li: a(class=['collapsible-header', 'waves-effect']) All project
+        li: a(class=['collapsible-header', 'waves-effect']) Exit
+    main
+      div(class=['container-fluid']) 
+        block content
+    footer(class=['page-footer'])
+      div(class=['container']) 
+        div(class=['row']) 
+          div(class=['col', 's3']) 
+            p Curabitur a tristique sapien, et pellentesque lacus.
+          div(class=['col', 's9'])    
+            p *Aliquam eget condimentum urna. Suspendisse rutrum vehicula risus quis faucibus. Sed dignissim sem diam, at vestibulum mi commodo sit amet. Duis ut suscipit erat. Nullam rutrum purus nec enim tincidunt, vel laoreet lacus interdum. Proin eu sapien ac urna varius luctus. Cras eget leo at mi lobortis malesuada sit amet non nisl.
